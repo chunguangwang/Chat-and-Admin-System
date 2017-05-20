@@ -1,5 +1,7 @@
 # Chat-and-Admin-System
 
+The prerequisite is that local machine should have java environment installed for the chat package to run.
+
 A peer to peer Chatting System based on Java Multi threads, Socket, Swing, and IO system.
 On the client side, the user can chat, leave messages with peers, check who is online, who 
 is offline.
