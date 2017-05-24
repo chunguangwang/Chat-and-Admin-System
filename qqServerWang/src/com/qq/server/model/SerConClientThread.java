@@ -49,8 +49,8 @@ public class SerConClientThread extends Thread{
 	}
 	
 	public void notifyOtherOut(String logoutid){
-		//notify the administrator the user is online
-		MyServerFrame.jbls2[Integer.parseInt(logoutid)-1].setEnabled(true);		
+		//notify the administrator the user is offline
+		MyServerFrame.jbls2[Integer.parseInt(logoutid)-1].setEnabled(false);		
 		
 		//notify other online users that a user has logged out
 		HashMap hm = ManagerClientThread.hm;
